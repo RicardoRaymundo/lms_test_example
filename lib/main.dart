@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:lms_test_example/app/app_behavior.dart';
-import 'package:lms_test_example/test_example/test_example.dart';
+import 'package:lms_test_example/dialog/dialog_test_main.dart';
 import 'package:lms_test_example/theme/theme_config.dart';
 import 'package:lms_test_example/theme/theme_select.dart';
 import 'package:lms_test_example/ui/ui_label.dart';
@@ -63,7 +63,7 @@ class _MainPageState extends State<_MainPage> {
             fit: BoxFit.fitHeight
           )
         ),
-        child: TestExample(),
+        child: DialogTestMain(),
       ),
     );
   }
